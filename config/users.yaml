@@ -1,0 +1,13 @@
+users:
+  - username: one
+    status: active
+
+    groups:
+      - <group name>
+
+    policies:
+      - policies/s3_policy.json
+      - policies/test_policy.json
+
+    console_access: false
+    cli_access: true
